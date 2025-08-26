@@ -1,0 +1,132 @@
+
+
+body{
+	padding-top: 100px;
+}
+
+.cardOne{
+	background-image: url(images/password_DDoS-2-1024x612.png);
+	border-radius: 10px;
+	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardTwo{
+	background-image: url(images/What-is-Password-Attack-in-Cyber-Security_.jpg);
+border-radius: 10px;
+	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardThree{
+	background-image: url(images/https___dev-to-uploads.s3.amazonaws.com_uploads_articles_0ds1i24nt9fac0u6imjk.webp);
+border-radius: 10px;
+	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card_container{
+	padding-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+
+}
+
+.qweqe{
+	padding-top: 30px;
+}
+
+.cardOne:hover{
+	transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.cardTwo:hover{
+	transform: scale(1.05);
+  transition: 0.3s;
+}
+.cardThree:hover{
+	transform: scale(1.05);
+  transition: 0.3s;
+}
+
+footer{
+display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 15px;
+	background-color: black;
+	
+}
+
+.footbck{
+
+	color: white;
+width: 50%;
+text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.con{
+
+	width: 100%;
+	height: 30%;
+}
+
+.son{
+
+	width: 160%;
+	height: 20%;
+}
+
+
+.form-floating{
+width: 100%;
+	position: relative;
+	
+}
+
+.line{
+	background-color: white;
+	width: 97%;
+	height: 1px;
+	border-radius: 10px;
+}
+
+.links{
+	padding: 35px;
+}
+.contct{
+flex-direction: row;
+	text-decoration: none;
+	width: 118%;
+
+display: flex;
+	color: white;
+	justify-content: space-around;
+	padding-top: 30px;
+}
+
+
+.contct a:hover{
+	color: orange;
+	transition: 0.8s;
+}
+
+i{
+margin-right: 10px;
+font-size: 20px;
+
+}
