@@ -3,7 +3,7 @@
 body{
 	width: 100%;
 	height: 100%;
-	padding-top: 100px;
+	padding-top: 130px;
 }
 
 .cardOne{
@@ -34,7 +34,7 @@ border-radius: 10px;
 	
 	padding-top: 50px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
 	gap: 20px;
 
@@ -133,4 +133,19 @@ i{
 margin-right: 10px;
 font-size: 20px;
 
+}
+
+
+@media screen and (max-width: 400px){
+
+
+
+	.links{
+		
+	padding-top: 20px;
+		height: 70px;
+		font-size: small;
+		flex-direction: row;
+		justify-content: space-around;
+	}
 }
