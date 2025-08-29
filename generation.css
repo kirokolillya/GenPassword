@@ -1,8 +1,9 @@
 
 body{
-	
-	padding-top: 100px;
-	padding-bottom: 200px;
+	min-height: 100vh; /* растягивает на всю высоту экрана */
+	display: flex;
+	flex-direction: column;
+	margin: 0;
 }
 
 i {
@@ -14,16 +15,14 @@ i {
 
 #PasswordInput{
 	text-align: center;
-	width: 200pxs;
+	
 }
 
 footer{
-	position: fixed;
-  bottom: 0;
-  left: 0;
+
   width: 100%;
-  background: #333;
-  display: block;
+
+ 
 display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -123,14 +122,18 @@ font-size: 20px;
 	display: block;
 }
 
+.container{
+	flex: 1;
+}
+
 @media screen and (max-width: 400px){
 	.rty{
 		display: none;
 	}
 	
 	body{
-		padding-bottom: 300px;
-		padding-top: 1170px;
+	
+		padding-top: 150px  !important;
 	}
 
 	.zxcvbn{
@@ -141,6 +144,9 @@ font-size: 20px;
 	display: none;
 }
 
+.navbar{
+	padding-top: 400px;
+}
 
 
 	.container{
@@ -148,13 +154,7 @@ font-size: 20px;
 		flex-direction: column;
 	}
 
-	.container-fluid{
-		  
-  justify-content: center;   
 
-  flex-direction: column;    
-  align-items: center;
-	}
 
 	.tedt{
 		display: none;
@@ -174,7 +174,7 @@ font-size: 20px;
 
 	.links{
 		
-		margin: 10px;
+	padding-top: 20px;
 		height: 70px;
 		font-size: small;
 		flex-direction: row;
@@ -201,9 +201,7 @@ body{
 	padding-top: 200px;
 }
 
-footer{
-	display: none;
-}
+
 }
 
 @media screen and (max-width: 973px){
